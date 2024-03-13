@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'Young Serif';
+  src: local('Young Serif'), local('YoungSerif'),
+    url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('woff2'),
+    url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('woff'),
+    url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype'),
+    url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('svg');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: local('Outfit'), local('Outfit'),
+    url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('woff2'),
+    url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('woff'),
+    url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype'),
+    url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('svg'),
+  ;
+}
+
 :root {
   /* Colors */
 
@@ -35,16 +54,6 @@
   padding: 0;
   box-sizing: border-box;
   color: var(--wenge-brown, #000);
-}
-
-@font-face {
-  font-family: 'Young Serif';
-  src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Outfit';
-  src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
 }
 
 body {
